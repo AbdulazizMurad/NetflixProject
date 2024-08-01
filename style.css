@@ -1,6 +1,6 @@
 .background-image {
   background-image: url(./apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
-
+  margin-top: 0px;
   height: 1000px;
 }
 .head-text {
@@ -84,15 +84,20 @@
 .background-page2 {
   background-color: black;
 
-  height: 1000px;
+  height: 600px;
 }
 
 .subscribe-text {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
-.page2-class {
+/* dfor all hr lines between pages */
+hr {
+  height: 10px;
+  background-color: gray;
+}
+/* ?\page2 css */
+.page2-container {
   color: white;
   align-items: center;
   justify-content: center;
@@ -107,4 +112,87 @@
   font-size: larger;
   margin-left: 20px;
   width: 400px;
+  margin-bottom: 300px;
+}
+.page2-image {
+  margin-bottom: 300px;
+}
+.background-page3 {
+  background-color: black;
+
+  height: 600px;
+}
+/* page 3 */
+.page3-container {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+
+  font-size: larger;
+  height: 100vh;
+}
+.page3-text {
+  font-size: larger;
+  margin-left: 20px;
+  width: 600px;
+  margin-bottom: 200px;
+}
+.page3-image {
+  margin-bottom: 300px;
+}
+/* page4 */
+.page4-container {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  height: 500px;
+  font-size: larger;
+  height: 100vh;
+}
+
+.page4-text {
+  font-size: larger;
+  margin-left: 100px;
+  width: 400px;
+  margin-bottom: 400px;
+}
+.page4-image {
+  margin-bottom: 300px;
+  margin-left: 200px;
+}
+.background-page4 {
+  background-color: black;
+
+  height: 600px;
+}
+/* page 5 */
+.background-page5 {
+  background-color: black;
+
+  height: 600px;
+}
+/* page 3 */
+
+.page5-container {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+
+  font-size: larger;
+  height: 100vh;
+}
+.page5-text {
+  font-size: larger;
+  margin-left: 20px;
+  width: 600px;
+  margin-bottom: 300px;
+}
+.page5-image {
+  margin-bottom: 300px;
 }
