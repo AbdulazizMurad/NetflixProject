@@ -1,7 +1,7 @@
 .background-image {
   background-image: url(./apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
   margin-top: 0px;
-  height: 1000px;
+  height: 700px;
 }
 .head-text {
   display: flex;
@@ -22,15 +22,15 @@
 
 .subscribe {
   background-color: rgba(255, 255, 255, 0);
-  width: 700px;
+  width: 850px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px;
   color: white;
-  font-size: larger;
-  margin-bottom: 200px;
+  font-size: x-large;
+  margin-bottom: 300px;
 }
 .subsribe-container {
   align-items: center;
@@ -81,22 +81,24 @@
   height: fit-content;
   font-size: larger;
 }
+
+.subscribe-text {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+/* dfor all hr lines between pages */
+hr {
+  height: 7px;
+  background-color: gray;
+  margin: 0px;
+}
+/* ?\page2 css */
 .background-page2 {
   background-color: black;
 
   height: 600px;
 }
 
-.subscribe-text {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-/* dfor all hr lines between pages */
-hr {
-  height: 10px;
-  background-color: gray;
-}
-/* ?\page2 css */
 .page2-container {
   color: white;
   align-items: center;
@@ -117,12 +119,13 @@ hr {
 .page2-image {
   margin-bottom: 300px;
 }
+
+/* page 3 */
 .background-page3 {
   background-color: black;
 
   height: 600px;
 }
-/* page 3 */
 .page3-container {
   color: white;
   align-items: center;
